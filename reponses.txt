@@ -1,0 +1,76 @@
+Ce fichier contient les réponses aux questions de la série d'exercices ruby du jour 7.
+
+Exercice 1
+-- pas de question --
+
+Exercice 2
+La principale différence entre puts et print est: 
+"puts" permet de revenir à la ligne entre chaque partie de code tandis que "print" affichera le texte à la suite du précedent.
+
+Exercice 3
+L'ajout de # dans la ligne 2 permet de faire passer la ligne en commentaire. Elle ne sera pas prise en compte quand le programme tourne.
+
+Exercice 4
+Le programme indique un caractère manquant.
+Afin de débugger le programm il faut refermer les guillemets ".
+
+Exercice 5
+"#{}" permet d'effectuer une opération/un calcul à l'interieur d'un texte affiché. Le reste des commentaires ont été inserés directement dans le fichier ruby.
+
+Exercice 6
+Le programme renvoie en premier le nombre total d'heures de travail pour THP. Il doit renvoyer ensuite le nombre total de minutes de travail pour THP. Toutefois la deuxième opération ne peut pas être effectuée car il manque une variable. "number_of_minutes_in_an_hour" n'avait pas été initialisée avant d'être utilisée dans le calcul. Le programme ne pouvait pas fonctionner. "number_of_minutes_in_an_hour = 60" doit être ajouté avant le second puts.
+
+Exercice 7
+"gets.chomp" permet de stopper momentanément l'execution du code. Il attend que l'utilisateur entre une saisie dans la console. Il récupere les données saisies par l'utilisateur dans la console pour les enregistrer dans la variable "user_name"
+
+Comparaison entre les 3 parties de l'exercice. 
+La partie c) est la moins explicite: dans cette dernière version de l'exercice l'utilisateur ne reçoit pas d'instruction ou d'information sur ce qu'il faut faire. Le programme n'affiche ni de question, ni n'indique la zone ou entrer le texte dans la console. 
+La partie a) est un peu plus complète: le terminal affiche un texte demandant le nom de l'utilisateur (information sur ce que l'utilisateur doit renseigner). 
+La partie b) est la plus claire: après que la question s'affiche dans la console (similaire à la partie a), la seconde ligne de code permet d'afficher un signe ">". Ceci permet à l'utilisateur de comprendre que c'est à lui d'entrer de l'information relative à la question énoncée dans la console.
+
+Exercice 8
+-- pas de question --
+
+Exercice 9
+-- pas de question --
+
+Exercice 10
+-- pas de question --
+
+Exercice 11
+  Commentaire:
+  Pour les programmes avec un nombre à choisir (11, 12, 14...) J'ai demander dans l'affichage de la console "un nombre entre 1 et 49" de façon à ne pas se retrouver avec un défilement trop long.
+
+Exercice 12
+-- pas de question --
+
+Exercice 13
+  Commentaire:
+  Pour cet exercice je n'ai pas réussi à comprendre si l'année de naissance devait être incluse ou non dans la liste des années à afficher. "chaque année depuis son année de naissance" peut-être, il me semble, compris dans les deux sens. J'ai pris le parti d'afficher également l'année de naissance. 
+
+Exercice 14
+-- pas de question --
+
+Exercice 15
+-- pas de question --
+
+Exercice 16
+-- pas de question --
+
+Exercice 17
+  Commentaire:
+  Dans la condition, j'ai gardé une division d'entier (avec un resultat int) même pour les ages impairs afin d'afficher X années et demi comme l'année de moitié de l'age également.
+
+Exercice 18
+  Commentaire:
+  Pour afficher la liste dans la console, enlever le # devant la dernière ligne. 
+
+Exercice 19
+-- pas de question --
+
+Exercice 20
+-- pas de question --
+
+Exercice 21
+-- pas de question --
+
